@@ -1,0 +1,1 @@
+cmd_/media/minhtg/Data/projects/hdh/ssd1306_mock.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /media/minhtg/Data/projects/hdh/ssd1306_mock.ko /media/minhtg/Data/projects/hdh/ssd1306_mock.o /media/minhtg/Data/projects/hdh/ssd1306_mock.mod.o;  true

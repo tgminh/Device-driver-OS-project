@@ -1,0 +1,1 @@
+cmd_/media/minhtg/Data/projects/hdh/Module.symvers := sed 's/\.ko$$/\.o/' /media/minhtg/Data/projects/hdh/modules.order | scripts/mod/modpost -m -a  -o /media/minhtg/Data/projects/hdh/Module.symvers -e -i Module.symvers   -T -
